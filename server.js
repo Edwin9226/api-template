@@ -1,10 +1,12 @@
 import express from 'express';
+import StatusCodes from 'http-status-codes';
+
 
 const app= express();
 const port = 3000;
 const code=201;
 app.get('/add', (req, res) => {
-    res.status(code);
+    res.status(StatusCodes.CREATED);
     res.send("GET Request Called")
 });
 

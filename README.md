@@ -16,3 +16,5 @@ npm install nodemon --save-dev
 npm i --save-dev @babel-node
 
 npm i --save-dev  @babel/preset-env
+
+npm i http-status-codes
